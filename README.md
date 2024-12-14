@@ -18,4 +18,4 @@ Javascript, HTML, CSS, js, Bootstrap ...
 ## ✨ Live Demo
 
 Explore the interactive features and dynamic elements of Client Project  by visiting the hosted page on Github:
-[Client Project Page](https://mhmdtahasherif.github.io/Client/)
+[Client Project Page](https://mhmdtahasherif.github.io/Client-STORE/)
