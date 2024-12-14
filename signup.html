@@ -1,0 +1,105 @@
+<html>
+
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" href="style/styles.css">
+</head>
+
+<body>
+    <div class="parnav">
+        <div class="childnav">
+            <ul>
+                <li><a class="a1" href="signup.html">My Cart</a></li>
+                <li><a class="a2" href="signup.html">Register</a></li>
+                <li><a class="a1" href="signin.html">Login</a></li>
+                <a href="home.html"><img src="image/pexels-photo.jpg"></a>
+                <li><a class="a2" href="home.html">Home</a></li>
+                <li><a class="a1" href="signup.html">Gallery</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <main>
+        <form class="signUpForm" onsubmit="signUp(event);">
+            <h2>Register Form</h2><br>
+
+            <div class="form-group">
+                <p class="place">Enter Your User Name :</p>
+                <input type="text" name="username" id="username" required>
+                <p class="error" id="usernameError"></p>
+            </div>
+            <div class="form-group">
+                <p class="place">Enter Your Phone Number :</p>
+                <input type="tel" name="phone" id="phone" required>
+                <p class="error" id="phoneError"></p>
+            </div>
+            <div class="form-group">
+                <p class="place">Enter Your Email Address :</p>
+                <input type="email" name="email" id="email" required>
+                <p class="error" id="emailError"></p>
+            </div>
+            <div class="form-group">
+                <p class="place">Enter Your Password :</p>
+                <input type="password" name="pwd" id="pwd" required>
+                <p class="error" id="pwderror"></p>
+            </div>
+            <div class="form-group">
+                <button type="submit">Register</button>
+            </div>
+
+            <p>If You Already a Member? <a class="conf" href="signin.html">Login</a></p>
+        </form>
+    </main>
+    </table>
+
+
+
+    <div class="footer">
+
+        <table class="tab1">
+
+            <tr>
+                <td>
+                    <div class="div1">
+
+                        <a href="contact.html">Contact Us</a>
+                    </div>
+                </td>
+                <td>
+                    <div class="div2">
+                        <a href="about.html">About</a>
+                    </div>
+
+                </td>
+
+            </tr>
+
+
+            <tr>
+                <td>
+                    <div class="div1">
+                        <a><u>01271858715</u></a>
+                    </div>
+                </td>
+
+
+
+                <td>
+                    <div class="div2">
+                        <a><u>mhmdtaha818@gmail.com</u></a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <h4><u><a href="home.html">2023 Electric Products</a></u>. All rights reserved.</h4>
+                </td>
+            </tr>
+        </table>
+
+
+        <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>

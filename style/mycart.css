@@ -1,0 +1,250 @@
+*{
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* header */
+.par-nav {
+    background-color: #333;
+    padding: 5px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    height: 33px;
+}
+li {
+    float: right;
+}
+ul {
+    list-style-type: none;
+    margin-right: 100px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    margin-top: 3px;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+a img {
+    height: 60px;
+    width: 90px;
+    margin-left: 450px;
+    border-radius: 15px;
+}
+.a1 {
+    background-color: #bb6d6dc2;
+    border-radius: 20px;
+    height: 20px;
+}
+
+.a2 {
+    background-color: #dcb1b1c2;
+    border-radius: 20px;
+    height: 20px;
+}
+.a1:hover {
+    background-color: #7fbda684;
+}
+
+.a2:hover {
+    background-color: #42655884;
+}
+
+
+
+
+/* body */
+.container{
+width: 92%;
+margin:auto ;
+
+}
+.cart-removing {
+    font-weight: bold;
+    font-size:larger;
+    color: #333;
+    margin-left: 270px;
+}
+.section-header{
+text-align: center;
+font-size:xx-large;
+text-decoration: underline;
+font-style: italic;
+}
+.cart-remove {
+    padding: 10px;
+    margin-left: 75px;
+}
+.cart-row {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    overflow: hidden;
+  }
+  .cart-item {
+    float: left;
+    margin-right: 130px;
+    width: 500px;
+    font-size: larger;
+    font-weight: bold;
+  }
+  .image{
+    width: 100px;
+    height: 100px;
+  }
+  .title {
+    font-weight: bold;
+    margin-left: 100px;
+    margin-bottom: 45px;
+  }
+  .cart-price {
+    float: left;
+    margin-right: 130px;
+    font-weight: bold;
+    font-size: larger;
+  }
+  .price{
+    font-size: large;
+    font-weight: bold;
+    margin-top: 50px;
+  }
+  .remove {
+    float: right;
+    background-color: #ff4444;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 180px;
+    margin-top: 15px;
+  }
+.remove:hover {
+    background-color: #CC4C4C;
+}
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 35px;
+}
+.total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+.total-price {
+    color: #333;
+    font-size: larger;
+}
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: larger;
+    background-color: #f6f6f6;
+    width: 150px;
+    border-radius: 25px;
+}
+.btn-purchase:hover{
+    background-color: #d0cbcb;
+} 
+.payment{
+    width: 470px;
+    margin: auto;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.payInput1{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+.payInput{
+   width: 350px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+.payButton{
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left:75px;
+    text-align: center;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    font-size: large;
+}
+.payment span{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: 300;
+    text-decoration: underline;
+}
+
+
+
+
+/* footer */
+.footer {
+    background-color: #333;
+    padding: 25px;
+    left: 50px;
+    color: white;
+}
+.div1{
+    width: 45%;
+    margin-left: 230px;
+    padding: 20px;
+    color: #ccc;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+.div2{
+width: 45%;
+padding: 20px;
+margin-left: 200px;
+color: #ccc;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 900;
+font-style: italic;
+}h4{
+    margin-top: 5px;
+    color: white;
+    font-size: large;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+.div2 a{
+    cursor: pointer;
+}
+.div1 a{
+    cursor: pointer;
+}
+.tab1{
+    width: 100%;
+    margin:30px auto;
+    text-align: center;
+}
+.table {
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+} 
+#signOutButton{
+    cursor: pointer;
+}

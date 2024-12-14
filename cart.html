@@ -1,0 +1,117 @@
+<html>
+
+<head>
+    <title>mycart</title>
+    <link rel="stylesheet" href="style/mycart.css">
+</head>
+
+<body>
+
+    <div>
+        <div class="par-nav">
+            <ul>
+                <li><a class="a1" id="signOutButton">Sign Out</a></li>
+                <li><a class="a2" href="">My Cart</a></li>
+                <li><a class="a1" href="signup.html">Register</a></li>
+                <li><a class="a2" href="signin.html">Login</a></li> <a href="home.html">
+                    <img src="image/pexels-photo.jpg"></a>
+                <li><a class="a1" href="home.html">Home</a></li>
+                <li><a class="a2" href="gallary.html">Gallery</a></li>
+
+
+            </ul>
+        </div>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br>
+
+    <div class="container">
+        <h2 class="section-header">CART</h2><br><br><br><br>
+        <div class="cart-row">
+            <span class="cart-item">ITEM</span>
+            <span class="cart-price">PRICE</span>
+            <span class="cart-removing">REMOVE PROUDACT</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="total-title">Total</strong>
+            <span class="total-price">$0</span>
+        </div>
+        <button onclick="purchaseClicked()" class="btn-purchase" type="button">PURCHASE</button>
+    </div>
+
+
+    <div class="payment">
+        <h2 class="payTitle">Personal Information</h2><br>
+        <span>Name and Surname</span><br>
+        <input type="text" class="payInput"><br>
+        <span>Phone Number</span><br>
+        <input type="text" class="payInput"><br>
+        <span>Address</span><br>
+        <input type="text" class="payInput"><br><br>
+        <h2 class="payTitle">Card Information</h2>
+        <br>
+        <span>cardNumber</span> <br> <input type="password" class="payInput">
+        <div class="cardInfo">
+            <span> mm</span> <input type="text" class="payInput1">
+            <span>yyyy</span> <input type="text" class="payInput1">
+            <span>cvv</span> <input type="text" class="payInput1">
+        </div>
+        <button class="payButton">BUY</button>
+    </div>
+
+
+
+
+    <div class="footer">
+
+        <table class="tab1">
+
+            <tr>
+                <td>
+                    <div class="div1">
+
+                        <a href="contact.html">Contact Us</a>
+
+
+                    </div>
+                </td>
+
+                <td>
+                    <div class="div2">
+                        <a href="about.html">About</a>
+                    </div>
+
+                </td>
+
+            </tr>
+
+
+            <tr>
+                <td>
+                    <div class="div1">
+                        <a><u>01271858715</u></a>
+                    </div>
+                </td>
+
+
+
+                <td>
+                    <div class="div2">
+                        <a><u>mhmdtaha818@gmail.com</u></a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <h4><u><a href="home.html">2023 Electric Products</a></u>. All rights reserved.</h4>
+                </td>
+            </tr>
+        </table>
+
+
+        <script src="js/mycart.js"></script>
+</body>
+
+</html>

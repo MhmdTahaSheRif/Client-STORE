@@ -1,0 +1,114 @@
+<html>
+
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style/dashboard.css">
+</head>
+
+<body>
+  <div class="par-nav">
+
+    <ul>
+      <li><a class="a1" id="signOutButton">Sign Out</a></li>
+
+      <li><a class="a2" href="signup.html">Register</a></li>
+      <li><a class="a1" href="signin.html">Login</a></li> <a href="home.html"><img
+          src="image/pexels-photo.jpg"></a>
+      <li><a class="a1" href="home.html">Home</a></li>
+      <li><a class="a2" href="admingallary.html">Gallery</a></li>
+
+    </ul>
+  </div>
+  </div>
+  <form id="productForm">
+    <h2>Add Product Form</h2>
+
+    <!-- <span>Product ID : </span>
+    <input type="text" id="productID" required><br><br> -->
+
+
+    <span>Product Name : </span>
+    <input type="text" id="productName" required><br><br>
+
+    <span>Product Price : </span>
+    <input type="text" id="productPrice" required><br><br>
+
+    <span>Product Image:</span>
+    <input class="file" type="file" id="productImage" required><br><br>
+
+    <span>Product Simpledesc : </span>
+    <input type="text" id="productsimpledesc" required><br><br>
+
+    <span>Product Description : </span>
+    <input type="text" id="productDescription" required><br><br>
+
+    <button type="submit">Add Product</button>
+  </form>
+
+
+  <table id="productList">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Image</th>
+        <th>Simpledesc</th>
+        <th>Description</th>
+        <th>EDIT</th>
+        <th>Delete</th>
+      </tr>
+
+    </thead>
+    <tbody id="productTable"></tbody>
+  </table>
+
+
+  <div class="footer">
+
+
+
+    <table class="tab1">
+
+      <tr class="tr">
+        <td class="td">
+          <div class="div1">
+
+            <a href="contact.html">Contact Us</a>
+
+          </div>
+        </td>
+
+        <td class="td">
+          <div class="div2">
+            <a href="about.html">About</a>
+          </div>
+        </td>
+      </tr>
+
+
+      <tr class="tr">
+        <td class="td">
+          <div class="div1">
+            <a><u>01271858715</u></a>
+          </div>
+        </td>
+
+
+        <td class="td">
+          <div class="div2">
+            <a><u>mhmdtaha818@gmail.com</u></a>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="td" colspan="2">
+          <h4><u><a href="home.html">2023 Electric Products</a></u>. All rights reserved.</h4>
+        </td>
+      </tr>
+    </table>
+
+    <script src="js/dashboard.js"></script>
+</body>
+
+</html>
