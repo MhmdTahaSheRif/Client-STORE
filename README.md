@@ -1,6 +1,6 @@
 # Client Project 
 
-<img align="center" width="80%" src="https://github.com/MhmdTahaSheRif/CLIENT-PROJECT/blob/main/image/Screenshot 2024-12-14 160544.jpg">
+<img align="center" width="80%" src="https://github.com/MhmdTahaSheRif/Client-STORE/blob/image/Screenshot 2024-12-14 160544.jpg">
 
 ## 🚀 About Me
 I'm Mohamed Taha Frontend web developer...
